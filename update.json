@@ -1,0 +1,9 @@
+{
+  "versionCode": 29,
+  "versionName": "1.27",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.27/weathercn-1.27.apk",
+  "sha256": "835130cdcce2b2a38f607319a9e502891cd891b7b38ade14238dc25ff2a59e05",
+  "size": 1375662,
+  "minVersionCode": 0,
+  "notes": "v1.27 新增联网检查更新：设置页「软件更新」多了一行「检查更新」，启动时也会静默查一次（12 小时一次）。下载后先比对文件大小与 SHA-256，一致才交给系统安装器；不一致会自动删掉换源重试。覆盖安装，设置、定位与缓存都保留。"
+}
