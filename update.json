@@ -1,9 +1,9 @@
 {
-  "versionCode": 29,
-  "versionName": "1.27",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.27/weathercn-1.27.apk",
-  "sha256": "835130cdcce2b2a38f607319a9e502891cd891b7b38ade14238dc25ff2a59e05",
-  "size": 1375662,
+  "versionCode": 30,
+  "versionName": "1.28",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.28/weathercn-1.28.apk",
+  "sha256": "1080a2bee17ecdf9c1e56fa3ff85a5f54750c9ed27eff1d4f1553c32b6b8ab39",
+  "size": 1382801,
   "minVersionCode": 0,
-  "notes": "v1.27 新增联网检查更新：设置页「软件更新」多了一行「检查更新」，启动时也会静默查一次（12 小时一次）。下载后先比对文件大小与 SHA-256，一致才交给系统安装器；不一致会自动删掉换源重试。覆盖安装，设置、定位与缓存都保留。"
+  "notes": "v1.28：①修「连 WLAN 能自动更新、改用移动数据不更新」。根因不在应用：移动数据 + 熄屏时系统进省电空闲（Doze）、流量节省又只限制后台的计费网络，后台联网被掐住，WLAN 不受影响。现在「我的 → 自动更新」直接显示当前网络、流量节省、是否允许后台运行与上次成功更新时间；退出省电空闲即刻补刷，自愈间隔由 10 分钟收到 3 分钟，检测到 WLAN 与移动数据切换且数据旧了 20 分钟以上也会补一次。②打开应用不再自动刷新，首页右下角新增可拖动圆钮，点它弹出「刷新数据 / 日间模式 / 夜间模式」，位置会记住。"
 }
