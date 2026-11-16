@@ -1,10 +1,10 @@
 {
-  "versionCode": 32,
-  "versionName": "1.30",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.30/weathercn-1.30.apk",
-  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.30.apk",
-  "sha256": "38202c1b39b50afdf3b9dd9e70de328f596aa8169ad19736f9c339fd50fc4f58",
-  "size": 1384447,
+  "versionCode": 33,
+  "versionName": "1.31",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.31/weathercn-1.31.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.31.apk",
+  "sha256": "beae49fe4140720136d4da11ade0a5a6f73c731d3a6b3307863fa05792d9a394",
+  "size": 1388680,
   "minVersionCode": 0,
-  "notes": "v1.30 接着修「检查更新」的另一半。上一版去掉了被长期缓存的 @main 地址，但 jsDelivr 对普通分支路径同样会滞后：v1.29 清单提交一个多小时后，三个 CDN 域名返回的还是上一版内容。这一版把 GitHub 的 contents 接口排到第一位，它拿到的就是仓库里的实时文件、最多滞后一分钟，返回的 base64 内容在应用里先解开再比对；后面三个 jsDelivr 域名继续当备份。这样发布清单之后下一分钟就能被查到，不用再等 CDN 过期。"
+  "notes": "v1.31 全软件天气图标改用新样式：深蓝圆角方块底，配黄色月亮、白云、淡蓝雨滴、白色雪花与黄色闪电的扁平手绘风；白天用同族浅色版，昼夜只换配色、形状不变。图标细分到 29 种（雨量六档、雪量四档，另有阵雨、阵雪、雷阵雨、雷阵雨伴冰雹、雨夹雪、冻雨、雾、霾、浮尘、扬沙、沙尘暴、强沙尘暴），覆盖首页大图标与天空背景、逐小时横条、15 日与 40 日列表、设置页预览、桌面小部件。作者署名后补上联系方式 bxwy@qq.com。"
 }
