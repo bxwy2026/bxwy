@@ -1,10 +1,10 @@
 {
-  "versionCode": 31,
-  "versionName": "1.29",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.29/weathercn-1.29.apk",
-  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.29.apk",
-  "sha256": "419d03e9baff987342e3652c461134778d8e140c1237cab8b5699ce2d9135ebb",
-  "size": 1383927,
+  "versionCode": 32,
+  "versionName": "1.30",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.30/weathercn-1.30.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.30.apk",
+  "sha256": "38202c1b39b50afdf3b9dd9e70de328f596aa8169ad19736f9c339fd50fc4f58",
+  "size": 1384447,
   "minVersionCode": 0,
-  "notes": "v1.29 修「检查更新」明明有新版本却提示已是最新。原因是清单一直从 jsDelivr 的 @main 地址拉，而 @main 是 CDN 的版本别名、被长期缓存，v1.28 发布后仍返回 v1.27 的清单；旧逻辑又是第一个源成功就停，于是永远判定为最新。这一版不再用 @main 地址，同时查三个 jsDelivr 域名并取 versionCode 最大的一份，三个都失败才去试 raw 兜底。下载优先走 jsDelivr 上的 APK，不通再回落 GitHub Release。"
+  "notes": "v1.30 接着修「检查更新」的另一半。上一版去掉了被长期缓存的 @main 地址，但 jsDelivr 对普通分支路径同样会滞后：v1.29 清单提交一个多小时后，三个 CDN 域名返回的还是上一版内容。这一版把 GitHub 的 contents 接口排到第一位，它拿到的就是仓库里的实时文件、最多滞后一分钟，返回的 base64 内容在应用里先解开再比对；后面三个 jsDelivr 域名继续当备份。这样发布清单之后下一分钟就能被查到，不用再等 CDN 过期。"
 }
