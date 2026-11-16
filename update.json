@@ -1,9 +1,10 @@
 {
-  "versionCode": 30,
-  "versionName": "1.28",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.28/weathercn-1.28.apk",
-  "sha256": "1080a2bee17ecdf9c1e56fa3ff85a5f54750c9ed27eff1d4f1553c32b6b8ab39",
-  "size": 1382801,
+  "versionCode": 31,
+  "versionName": "1.29",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.29/weathercn-1.29.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.29.apk",
+  "sha256": "419d03e9baff987342e3652c461134778d8e140c1237cab8b5699ce2d9135ebb",
+  "size": 1383927,
   "minVersionCode": 0,
-  "notes": "v1.28：①修「连 WLAN 能自动更新、改用移动数据不更新」。根因不在应用：移动数据 + 熄屏时系统进省电空闲（Doze）、流量节省又只限制后台的计费网络，后台联网被掐住，WLAN 不受影响。现在「我的 → 自动更新」直接显示当前网络、流量节省、是否允许后台运行与上次成功更新时间；退出省电空闲即刻补刷，自愈间隔由 10 分钟收到 3 分钟，检测到 WLAN 与移动数据切换且数据旧了 20 分钟以上也会补一次。②打开应用不再自动刷新，首页右下角新增可拖动圆钮，点它弹出「刷新数据 / 日间模式 / 夜间模式」，位置会记住。"
+  "notes": "v1.29 修「检查更新」明明有新版本却提示已是最新。原因是清单一直从 jsDelivr 的 @main 地址拉，而 @main 是 CDN 的版本别名、被长期缓存，v1.28 发布后仍返回 v1.27 的清单；旧逻辑又是第一个源成功就停，于是永远判定为最新。这一版不再用 @main 地址，同时查三个 jsDelivr 域名并取 versionCode 最大的一份，三个都失败才去试 raw 兜底。下载优先走 jsDelivr 上的 APK，不通再回落 GitHub Release。"
 }
