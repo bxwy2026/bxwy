@@ -1,10 +1,10 @@
 {
-  "versionCode": 36,
-  "versionName": "1.34",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.34/weathercn-1.34.apk",
-  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.34.apk",
-  "sha256": "80b7eb04f32264ef15f95f7f8e332c20ee034738c10f952053d939317db23c05",
-  "size": 1390999,
+  "versionCode": 37,
+  "versionName": "1.35",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.35/weathercn-1.35.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.35.apk",
+  "sha256": "368341de4d08da2e74812a49c917cb0aaafaf24e54903e30aad526aee26b9435",
+  "size": 2059740,
   "minVersionCode": 0,
-  "notes": "v1.34 天气图标的云朵统一改成白色，白天在浅色底上加一圈很浅的灰蓝轮廓保证看得清，夜间保持纯白云朵；首页、逐小时、15 日与 40 日列表、设置页预览和桌面小部件同步生效。预警通知只推当前定位或所选地本地的预警，同一地级市下其他县市的预警不再打扰；拿不到当前地区时仍保留全部，避免漏掉本该提醒的本地预警。"
+  "notes": "v1.35 首页主卡背景换成写实天气实况图，按当前天气和白天、夜晚自动切换，晴、多云、阴、雨、雷阵雨、雪、雾、霾、沙尘各有对应画面，底部压暗保证温度和文字看得清。每天 18:00 到次日 06:00，晴、多云等带太阳的图标自动换成月亮图标，首页、逐小时、15 日与 40 日列表、设置预览和桌面小部件同步生效。"
 }
