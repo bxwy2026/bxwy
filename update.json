@@ -1,10 +1,10 @@
 {
-  "versionCode": 35,
-  "versionName": "1.33",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.33/weathercn-1.33.apk",
-  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.33.apk",
-  "sha256": "89ad4a123d76bbc2754661a2d9e8857631f965ecc8a719021e1605fa077ab961",
-  "size": 1389593,
+  "versionCode": 36,
+  "versionName": "1.34",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.34/weathercn-1.34.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.34.apk",
+  "sha256": "80b7eb04f32264ef15f95f7f8e332c20ee034738c10f952053d939317db23c05",
+  "size": 1390999,
   "minVersionCode": 0,
-  "notes": "v1.33 天气图标再改一版，按这次口述的滴数来，不再跟着示意图的数量走：小雨 1 滴、中雨 2 滴、大雨 3 滴、暴雨 4 滴、大暴雨 5 滴、特大暴雨 6 滴；雷阵雨只画一道闪电、不留雨滴；雷阵雨伴冰雹是闪电加一颗圆点；雨夹雪 1 滴加一朵雪花；冻雨 1 滴加一颗圆点。白天阵雨、阵雪各加一枚小太阳，不再和小雨、小雪长得一模一样，夜里仍是小月牙。另外把图标底下那块深蓝色方块底去掉了，只留天气符号本身。首页、逐小时、15 日与 40 日列表、设置页预览和桌面小部件同步生效。"
+  "notes": "v1.34 天气图标的云朵统一改成白色，白天在浅色底上加一圈很浅的灰蓝轮廓保证看得清，夜间保持纯白云朵；首页、逐小时、15 日与 40 日列表、设置页预览和桌面小部件同步生效。预警通知只推当前定位或所选地本地的预警，同一地级市下其他县市的预警不再打扰；拿不到当前地区时仍保留全部，避免漏掉本该提醒的本地预警。"
 }
