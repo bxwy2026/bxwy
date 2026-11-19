@@ -1,10 +1,10 @@
 {
-  "versionCode": 38,
-  "versionName": "1.36",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.36/weathercn-1.36.apk",
-  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.36.apk",
-  "sha256": "81d1d4005628bef251965c065222538d99aa9eb983c3c41df31125bbbd169e6b",
-  "size": 2061276,
+  "versionCode": 43,
+  "versionName": "1.41",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.41/weathercn-1.41.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.41.apk",
+  "sha256": "7d8f60692667bf61f65fc659f5f8c7b0d32983389d684d47c291df692c1c6d26",
+  "size": 2066876,
   "minVersionCode": 0,
-  "notes": "v1.36 首页写实背景图叠加对应动态动画：雨丝、雪花、闪电、雾沙尘带、飘云；天气图标云朵白天加黑灰描边不再隐身；夜间模式下逐小时、月气温、月降水、40 日趋势与天气日历文字统一提亮；逐小时 7 到 18 点按白天出太阳；雨滴按档并排排布，大暴雨上 2 下 3，特大暴雨两排各 3。"
+  "notes": "v1.41 15 日天气图标固定白天样式：晚间 19 点到次日 6 点也不换成月亮；白云图标统一加一圈灰黑描边，夜间模式下云朵不再与底色融为一体，轮廓清晰可辨。"
 }
