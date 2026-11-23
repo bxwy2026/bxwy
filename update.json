@@ -1,10 +1,10 @@
 {
-  "versionCode": 43,
-  "versionName": "1.41",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.41/weathercn-1.41.apk",
-  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.41.apk",
-  "sha256": "7d8f60692667bf61f65fc659f5f8c7b0d32983389d684d47c291df692c1c6d26",
-  "size": 2066876,
+  "versionCode": 45,
+  "versionName": "1.43",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.43/weathercn-1.43.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.43.apk",
+  "sha256": "b0a363388f37e7a9957bd4082b63863c2c7a4adcb4b8afe8edeaec6b3c69c3eb",
+  "size": 2067994,
   "minVersionCode": 0,
-  "notes": "v1.41 15 日天气图标固定白天样式：晚间 19 点到次日 6 点也不换成月亮；白云图标统一加一圈灰黑描边，夜间模式下云朵不再与底色融为一体，轮廓清晰可辨。"
+  "notes": "v1.43 40 日日历格子夜间 18 点到次日 6 点的小天气图标补黑灰框线；同时包含 v1.42 全部改动：逐小时 19 点到次日 6 点云朵描边、逐小时要素改名湿度与风向并新增温度档（过去 24 小时实况）、桌面小部件 AQI 上方加湿度且夜间云朵描边。"
 }
