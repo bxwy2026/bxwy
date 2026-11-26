@@ -1,10 +1,10 @@
 {
-  "versionCode": 45,
-  "versionName": "1.43",
-  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.43/weathercn-1.43.apk",
-  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.43.apk",
-  "sha256": "b0a363388f37e7a9957bd4082b63863c2c7a4adcb4b8afe8edeaec6b3c69c3eb",
-  "size": 2067994,
+  "versionCode": 46,
+  "versionName": "1.44",
+  "url": "https://github.com/bxwy2026/bxwy/releases/download/v1.44/weathercn-1.44.apk",
+  "urlCdn": "https://cdn.jsdelivr.net/gh/bxwy2026/bxwy/weathercn-1.44.apk",
+  "sha256": "ef58c185e05c2427eff1f2667bd92868694efac9a5ef36b35d4bfc581e58d5d4",
+  "size": 2073011,
   "minVersionCode": 0,
-  "notes": "v1.43 40 日日历格子夜间 18 点到次日 6 点的小天气图标补黑灰框线；同时包含 v1.42 全部改动：逐小时 19 点到次日 6 点云朵描边、逐小时要素改名湿度与风向并新增温度档（过去 24 小时实况）、桌面小部件 AQI 上方加湿度且夜间云朵描边。"
+  "notes": "v1.44 首页当月气温改为逐日实况：每天除高低温外还标天气图标，左右滑动可回看月初到今天的实况；当月降水同样只画月初到现在的逐日实况，拖动柱条看每天降水量，不再混入未来预报，并在卡片里常驻本月累计降水；生活服务新增今日全国舒适度预报图（中国气象局公共气象服务中心官方产品）；新增首页「发现新版本」提示条，关掉弹框也不会错过更新。"
 }
